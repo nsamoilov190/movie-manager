@@ -1,5 +1,4 @@
-package org.example.main;
-
+import org.example.main.MovieManager;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -22,6 +21,5 @@ public class MovieManagerTest {
     }
 
 
-
-    }
+}
 
