@@ -20,14 +20,8 @@ public class MovieManagerTest {
         String[] expected = {movie1, movie2, movie3};
         Assertions.assertArrayEquals(expected, actual);
     }
-    @Test
-    public void test2() {
 
-        MovieManager manager = new MovieManager();
-        manager.findLast();
 
 
     }
 
-
-}
