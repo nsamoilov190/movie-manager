@@ -22,20 +22,20 @@ public class MovieManagerTestFindLast {
         String movie11 = "movie11";
 
 
-MovieManager manager = new MovieManager(10);
-manager.addMovie(movie1);
-manager.addMovie(movie2);
-manager.addMovie(movie3);
-manager.addMovie(movie4);
-manager.addMovie(movie5);
-manager.addMovie(movie6);
-manager.addMovie(movie7);
-manager.addMovie(movie8);
-manager.addMovie(movie9);
-manager.addMovie(movie10);
-manager.addMovie(movie11);
-String[] expected = {movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2};
-String[] actual = manager.findLast();
-Assertions.assertArrayEquals(expected, actual);
+        MovieManager manager = new MovieManager(10);
+        manager.addMovie(movie1);
+        manager.addMovie(movie2);
+        manager.addMovie(movie3);
+        manager.addMovie(movie4);
+        manager.addMovie(movie5);
+        manager.addMovie(movie6);
+        manager.addMovie(movie7);
+        manager.addMovie(movie8);
+        manager.addMovie(movie9);
+        manager.addMovie(movie10);
+        manager.addMovie(movie11);
+        String[] expected = {movie11, movie10, movie9, movie8, movie7, movie6, movie5, movie4, movie3, movie2};
+        String[] actual = manager.findLast();
+        Assertions.assertArrayEquals(expected, actual);
     }
 }
